@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Home</title>
+<link rel="stylesheet" href="./Home_files/styles.css"></head>
+<body>
+    <!-- Name: Sami Rashid, Id: 2120326 -->
+    <header>
+        <div><img src="http://127.0.0.1:5500/index.html" alt="Logo"></div>
+        <div class="page-title"><a href="http://127.0.0.1:5500/index.html">Studio Heat</a></div>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/page1.html">Products</a></li>
+                <li><a href="http://127.0.0.1:5500/page2.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-wrapper">
+
+            <div class="hero-section" id="a">
+                <div class="hero-img"><img src="./Home_files/herobg.jpg" alt="banner"></div>
+                <div class="title-line"><p>Introducing Keepbook</p></div>    
+            </div>
+            
+            <div class="breaker" id="b">Here at Studio Neat, we design tools for people. See <br> everything we make below. <br> <hr></div>
+            
+        </div>
+
+        <div class="card-wrapper">
+            
+            <div class="card-container" id="c">
+            <img src="./Home_files/mark1.webp" alt="Image 1">
+            <div class="image-description" style="
+    height: 100px;
+"><p>Mark One</p>
+                <hr>
+                A Minimal, Durable, Retractable Pen </div>
+            </div>
+
+            <div class="card-container" id="d">
+                <img src="./Home_files/mark2.webp" alt="Image 2">
+                <div class="image-description"><p>Mark Two</p>
+                    <hr>
+                    A Minimal and Durable Pocket Pen </div>
+            </div>
+
+            <div class="card-container" id="e">
+                <img src="./Home_files/materialDock.webp" alt="Image 3">
+                <div class="image-description"><p>Material Dock</p>
+                    <hr>
+                    Wood Docks for MagSafe</div>
+            </div>
+
+            <div class="card-container" id="f">
+                <img src="./Home_files/panobook.jpg" alt="Image 4">
+                <div class="image-description"><p>PANOBOOK</p>
+                    <hr>
+                    A Notebook for Your Desk</div>
+            </div>
+
+            <div class="card-container" id="g">
+                <img src="./Home_files/keepbook.webp" alt="Image 5">
+                <div class="image-description"><p>KEEPBOOK</p>
+                    <hr>
+                    A Notebook Meant to Be Kept</div>
+            </div>
+
+            <div class="card-container" id="h">
+                <img src="./Home_files/totebook.webp" alt="Image 6">
+                <div class="image-description"><p>TOTEBOOK</p>
+                    <hr>
+                    A Notebook to Take With You</div>
+            </div>
+
+        </div>
+        
+        <footer>
+            <div class="newsletter">
+                <h2>NEWSLETTER</h2>
+                <div class="desc">JOIN OUR INFREQUENTLY USED, ONLY ON SPECIAL OCCASIONS, NON-SPAMMY NEWSLETTER.</div>
+                <div class="mail-input-field">
+                <input type="text" placeholder="Email Address" id="mail">
+                <input type="button" placeholder="SUBSCRIBE" id="subscribe">
+                </div>
+            </div>
+
+            <div class="follow-us">
+                <div><a href="http://127.0.0.1:5500/index.html">INSTAGRAM</a></div>
+                <div><a href="http://127.0.0.1:5500/index.html">Twitter</a></div>
+                <div><a href="http://127.0.0.1:5500/index.html">Facebook</a></div>
+                <div><a href="http://127.0.0.1:5500/index.html">Threads</a></div>
+            </div>
+
+        </footer>
+    </main>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
